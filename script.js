@@ -1,11 +1,9 @@
 let timer = 5
 let img_med
-let img_guer
 
 function setup() { 
   createCanvas(720, 400);
   img_med = loadImage('media/radeau_meduse.jpg');
-  img_guer = loadImage('media/guernica.jpg');
 } 
 
 function draw() { 
